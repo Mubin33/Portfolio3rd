@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Merienda:wght@300..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Caveat", cursive;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    padding: 13px 17px;
+    background-color: rgb(255, 140, 64);
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(255, 229, 194);
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+
+#logo{
+    position: relative;
+    left: 150px;
+    font-family: "Merienda", cursive;
+}
+
+
+#nav-list{
+    display: flex;
+    position: relative;
+    right: 150px;
+    gap: 25px;
+    text-decoration:none;
+    list-style: none;
+}
+
+/* ============hero=========== */
+
+#hero{
+    margin-top: 100px;
+
+}
+
+#hero>div{
+    width: 60%;
+    margin: 10px auto;
+}
+
+#hero>div>h1{
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px 0px;
+    font-family: "Merienda", cursive;
+}#hero>div>p{
+    text-align: center;
+    font-size: large;
+    opacity: 0.7;
+    margin: 20px 0px;
+    word-spacing: 0.6rem;
+}#hero>div>button{
+    position: relative;
+    left:43%;
+    margin: 20px 0px;
+}
+
+#hero>.img{
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 40px;
+}
+#hero>.img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ========main ======= */
+main{
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+
+/* --------     first section   --------- */
+#first-section{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 0px;
+}
+#first-section-card{
+    padding: 40px 50px 0px 10px;
+}
+#first-section-card h1{
+    font-size: xx-large;
+    font-family: "Merienda", cursive;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}#first-section-card>p{
+    font-size:medium;
+    margin-bottom: 20px;
+}
+.first-section-card{
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgb(206, 206, 206);
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.first-section-card h4{
+    font-size: medium;
+    margin: 5px 0px;
+    font-family: "Merienda", cursive;
+}
+.first-section-card p{
+    font-size: medium;
+    margin: 5px 0px;
+    font-size: smaller;
+    opacity: 0.7;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#first-section-img{
+    display: flex;
+    justify-content: end;
+}
+#first-section-img img{
+    width: 90%;
+}
+
+
+#first-section-offer{
+    background-color: orange;
+    position: relative;
+    width: 180px;
+    height: 130px;
+    left: 100%;
+    bottom: 70px;
+    border-radius: 5px;
+}
+#first-section-offer h3{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}#first-section-offer p{
+    position: relative;
+    left: 50px;
+    top: 29px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* --------      second section     ----------- */
+#second-section-text{
+    width: 45%;
+}
+#second-section-text h1{
+    font-family: "Merienda", cursive;
+    margin: 15px 0px;
+}#second-section-text p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0px;
+    font-size: small;
+    opacity: 0.6;
+}
+
+
+
+#second-section-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 110px;
+    padding: 30px 20px;
+}.second-section-card{
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(134, 134, 134);
+    border-radius: 6px;
+}.second-section-card img{
+    width: 30%;
+    margin: 0px 35%;
+}.second-section-card h2{
+    text-align: center;
+}.second-section-card p{
+    text-align: center;
+}
+
+
+
+
+
+
+/* --------   third section   ------------ */
+#third-section{
+    margin: 40px 0px;
+}
+#third-section h1{
+    font-family:"Merienda", cursive ;
+    font-size: xx-large;
+    margin: 20px 0px;
+    text-align: center;
+}#third-section p{
+    font-size: medium;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+}
+#sponsors{
+    margin: 30px 0px 40px 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}#sponsors img{
+    width: 100px;
+    height: 30px;
+}
+
+
+
+@media screen and (min-width:450px) and (max-width:800px){
+    header{
+        background-color: rgb(170, 242, 255);
+    }
+    
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+    }
+    
+    
+    #logo{
+        position: relative;
+        left: 10px;
+    }
+    
+    
+    #nav-list{
+        display: flex;
+        position: relative;
+        right: 10px;
+        gap: 25px;
+        text-decoration:none;
+        list-style: none;
+    }
+    
+    
+    /* ============hero=========== */
+    
+    #hero{
+        margin-top: 50px;
+
+    }
+    
+    #hero>div{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    #hero>div>h1{
+        text-align: center;
+        font-size: xx-large;
+        margin: 20px 0px;
+    }#hero>div>p{
+        text-align: center;
+        font-size: medium;
+        opacity: 0.7;
+        margin: 20px 0px;
+    }#hero>div>button{
+        position: relative;
+        left: 35%;
+        margin: 20px 0px;
+    }
+    
+    #hero>.img{
+        width: 95%;
+        margin: 0px auto;
+        padding-bottom: 40px;
+    }
+    #hero>.img img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+
+
+    /* ========main ======= */
+main{
+    width: 94%;
+    margin: 50px auto;
+}
+
+
+
+/* --------     first section   --------- */
+#first-section{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding: 0px;
+}
+#first-section-card{
+    padding: 40px 0px 0px 0px;
+}
+#first-section-card h1{
+    font-size: xx-large;
+    font-family: "Merienda", cursive;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}#first-section-card>p{
+    font-size:medium;
+    margin-bottom: 20px;
+}
+.first-section-card{
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgb(206, 206, 206);
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.first-section-card h4{
+    font-size: medium;
+    margin: 5px 0px;
+    font-family: "Merienda", cursive;
+}
+.first-section-card p{
+    font-size: medium;
+    margin: 5px 0px;
+    font-size: smaller;
+    opacity: 0.7;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#first-section-img{
+    display: flex;
+    justify-content: end;
+}
+#first-section-img img{
+    width: 95%;
+}
+
+
+#first-section-offer{
+    background-color: orange;
+    position: relative;
+    width: 180px;
+    height: 130px;
+    left: 100%;
+    bottom: 70px;
+    border-radius: 5px;
+}
+#first-section-offer h3{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}#first-section-offer p{
+    position: relative;
+    left: 50px;
+    top: 29px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+    
+
+
+
+
+#second-section-text{
+    width: 100%;
+}
+#second-section-text h1{
+    font-family: "Merienda", cursive;
+    margin: 15px 0px;
+}#second-section-text p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0px;
+    font-size: small;
+    opacity: 0.6;
+}
+
+
+
+#second-section-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+
+
+#sponsors{
+    margin: 30px 0px 40px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}#sponsors img{
+    width: 100px;
+    height: 30px;
+}
+
+
+
+}
+
+
+@media screen and (max-width:450px) {
+    #nav{
+        display: block;
+        align-items: center;
+        padding: 10px 0px;
+    }
+
+    #logo{
+        position: static;
+        margin: 0px 50px;
+    }
+    
+    
+    #nav-list{
+        border-top: 1px solid rgb(119, 119, 119) ;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0px;
+        position: static;
+        left: 20%;
+        gap: 25px;
+        text-decoration:none;
+        list-style: none;
+    }
+
+
+
+    
+/* ============hero=========== */
+
+#hero{
+    margin-top: 30px;
+
+}
+
+#hero>div{
+    width: 90%;
+    margin: 0px auto;
+}
+
+#hero>div>h1{
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px 0px;
+}#hero>div>p{
+    text-align: center;
+    font-size: medium;
+    opacity: 0.7;
+    margin: 20px 0px;
+}#hero>div>button{
+    position: relative;
+    left: 35%;
+    margin: 20px 0px;
+}
+
+#hero>.img{
+    width: 98%;
+    margin: 0px auto;
+    padding-bottom: 40px;
+}
+#hero>.img img{
+    width: 100%;
+}
+
+
+
+
+/* ========main ======= */
+main{
+    width: 95%;
+    margin: 50px auto;
+}
+
+
+
+
+
+/* --------     first section   --------- */
+#first-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+#first-section-card{
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 90px;
+}
+
+
+
+#first-section-img{
+    display: flex;
+    justify-content: end;
+}
+#first-section-img img{
+    width: 90%;
+}
+
+
+#first-section-offer{
+    background-color: orange;
+    position: relative;
+    width: 180px;
+    height: 130px;
+    left: 0px;
+    bottom: 480px;
+    border-radius: 20px 20px 0px 20px;
+    box-shadow: -5px -5px 10px rgb(163, 163, 163);
+}
+#first-section-offer h3{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}#first-section-offer p{
+    position: relative;
+    left: 50px;
+    top: 29px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+/* --------      second section     ----------- */
+#second-section-text{
+    width: 100%;
+}
+#second-section-text h1{
+    font-family: "Merienda", cursive;
+    margin: 15px 0px;
+}#second-section-text p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0px;
+    font-size: small;
+    opacity: 0.6;
+}
+
+
+
+#second-section-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 30px 10px;
+}
+
+    
+
+
+
+
+
+
+
+/* --------   third section   ------------ */
+
+#sponsors{
+    margin: 30px 0px 40px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}#sponsors img{
+    width: 100px;
+    height: 30px;
+}
+
+
+
+}
